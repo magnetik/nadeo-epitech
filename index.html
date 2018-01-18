@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Nadeo Live</title>
+
+        <meta name="description" content="Nadeo Live presentation at Epitech 2018">
+        <meta name="author" content="Baptiste Lafontaine">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="revealjs/css/reveal.css">
+        <link rel="stylesheet" href="revealjs/css/theme/night.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="revealjs/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-background="images/fun.jpg" data-background-color="black">
+                    <div style="background-color: rgba(0,0,0,0.2);">
+                        <h3>Ubisoft Nadeo</h3>
+                        <h4>Baptiste Lafontaine<br />Ingénieur online</h4>
+                        <h4>http://magnetik.org - baptiste@nadeo.com</h4>
+                    </div>
+                </section>
+                <section>
+                    <h3>2003 : Trackmania</h3>
+                    <img src="images/trackmania-1.png">
+                </section>
+                <section>
+                    <h3>2006 : Trackmania Nations ESWC</h3>
+                    <img src="images/trackmania-2.png">
+                </section>
+                <section>
+                    <h3>2008 : Trackmania United Forever</h3>
+                    <img src="images/trackmania-3.png">
+                </section>
+                <section>
+                    <section>
+                        <h3>2011 : Trackmania² Canyon</h3>
+                        <img src="images/trackmania-4.png">
+                    </section>
+                    <section>
+                        <h3>2011 : Maniaplanet 1.0</h3>
+                        <blockquote>Maniaplanet runs games like Windows runs applications</blockquote>
+                    </section>
+                    <section>
+                        <h3>2011 : Maniaplanet 1.0</h3>
+                        <img src="images/maniaplanet-1.png">
+                    </section>
+                    <section>
+                        <h3>2011 : Maniaplanet 1.0</h3>
+                        <h4>Stack live</h4>
+                        <ul>
+                            <li><em>Language</em> PHP 5.3 : manialib (framework maison), </li>
+                            <li><em>Applications</em> ~10 micro services (ManiaHome, ManiaPub, ManiaTeam, web)</li>
+                            <li><em>Serveurs</em> Virtualisation (VMWare), VM forgées à la main</li>
+                            <li><em>Monitoring</em> Munin</li>
+                            <li><em>Développement</em> EasyPHP, Netbeans</li>
+                            <li><em>Versionning</em> SVN</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h3>2012 : Shootmania Storm</h3>
+                    <img src="images/shootmania.png">
+                </section>
+                <section>
+                    <h3>2013 : Trackmania² Stadium</h3>
+                    <img src="images/trackmania-5.png">
+                </section>
+                <section>
+                    <h3>2013 : Trackmania² Valley</h3>
+                    <img src="images/trackmania-6.png">
+                </section>
+                <section>
+                    <section>
+                        <h3>2014 : Maniaplanet 3.0</h3>
+                        <img src="images/maniaplanet-3.png">
+                    </section>
+                    <section>
+                        <h3>2014 : Maniaplanet 3.0</h3>
+                        <h4>Stack live</h4>
+                        <ul>
+                            <li><em>Programmation</em> PHP 5.5 : manialib (framework) + composer (gestion de lib)</li>
+                            <li><em>Applications</em> ~15 micro services</li>
+                            <li><em>Serveurs</em> AWS (Cloudformation)</li>
+                            <li><em>Provisionnement</em> Ansible</li>
+                            <li><em>Monitoring</em> Grafana</li>
+                            <li><em>Développement</em> Vagrant, Virtualbox</li>
+                            <li><em>Versionning</em> Git</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>2016 : Trackmania Turbo</h3>
+                        <img src="images/trackmania-7.png">
+                    </section>
+                    <section>
+                        <h3>2016 : Trackmania Turbo</h3>
+                        <ul>
+                            <li><em>Programmation</em> PHP 7 : Symfony (framework) + composer</li>
+                            <li><em>Applications</em> 2 applis : backend & frontend</li>
+                            <li><em>Serveurs</em> AWS (Terraform)</li>
+                            <li><em>Provisionnement</em> Ansible</li>
+                            <li><em>Monitoring</em> Grafana + Kibana (logs)</li>
+                            <li><em>Développement</em> Galactica (basé sur Vagrant & virtualbox)</li>
+                            <li><em>Versionning</em> Git</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h3>2017 : Trackmania² Lagoon</h3>
+                    <img src="images/trackmania-8.png">
+                </section>
+                <section>
+                    <h3>2018 : Maniaplanet 4</h3>
+                    <img src="">
+                </section>
+            </div>
+        </div>
+
+        <script src="revealjs/lib/js/head.min.js"></script>
+        <script src="revealjs/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                progress: true,
+                history: true,
+                dependencies: [
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
+</html>
