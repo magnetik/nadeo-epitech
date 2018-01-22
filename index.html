@@ -55,7 +55,7 @@
                     <h3>NADEO</h3>
                     <p><strong>CORE</strong> : moteur 3D, physique, réseau</p>
                     <p><strong>SOFT</strong> : éditeurs (maps, titres, mesh)</p>
-                    <p><strong>DATA</strong> : environements</p>
+                    <p><strong>DATA</strong> : environnements</p>
                     <p><strong>LIVE</strong> : <em>slide suivant =)</em></p>
                     <p><strong>GAME</strong> : jeux</p>
                 </section>
@@ -161,12 +161,12 @@
                     <h3>2014 : Maniaplanet 3.0</h3>
                     <h4>Stack live</h4>
                     <ul>
-                        <li><em>Programmation</em> PHP 5.5 : manialib (framework) + composer (gestion de lib)</li>
+                        <li><em>Programmation</em> PHP 5.5 : manialib (framework) + composer (gestion de dépendances)</li>
                         <li><em>Applications</em> ~15 micro services + applis transverse</li>
                         <li><em>Serveurs</em> AWS</li>
                         <li><em>Provisionnement</em> Ansible</li>
                         <li><em>Monitoring</em> Grafana</li>
-                        <li><em>Développement</em> Vagrant, Virtualbox</li>
+                        <li><em>Développement</em> Virtualbox</li>
                         <li><em>Versions</em> Git</li>
                     </ul>
                 </section>
@@ -225,7 +225,7 @@ resource "aws_security_group" "maniaplanet4_access" {
     - apache
     - php
     - symfony
-  tasks
+  tasks:
     - name: Install exiftool (used for some validation)
       apt: name=exiftool state=present
 
